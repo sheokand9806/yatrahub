@@ -1,0 +1,769 @@
+[
+  {
+    "startLocation": {
+      "description": "Manali, Himachal Pradesh",
+      "type": "Point",
+      "coordinates": [
+        77.1892,
+        32.2396
+      ],
+      "address": "Mall Road, Manali, Himachal Pradesh 175131, India"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 9,
+    "images": [
+      "tour-1-1.jpg",
+      "tour-1-2.jpg",
+      "tour-1-3.jpg"
+    ],
+    "startDates": [
+      "2027-05-14T03:30:00.000Z",
+      "2027-06-11T03:30:00.000Z",
+      "2027-09-17T03:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2951",
+    "name": "The Himalayan Trek",
+    "duration": 5,
+    "maxGroupSize": 12,
+    "difficulty": "medium",
+    "guides": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a1f4e2f8fb814b56fa185"
+    ],
+    "price": 24999,
+    "summary": "Pine forests, alpine meadows and glacier-fed lakes on a guided trek above Manali",
+    "description": "Leave the bustle of Manali behind and climb into the Pir Panjal range on a five-day guided trek. You will wander through deodar and pine forests, cross meadows carpeted with wildflowers and camp beside the icy Beas Kund lake with snow peaks all around you.\nEvery night ends around a campfire with hot Himachali dhaam-style meals cooked by our camp team.\nThe route is moderate and suits anyone with a reasonable fitness level. Our certified mountain guides handle permits, tents, sleeping bags and acclimatisation days, so all you have to do is walk, breathe the thin air and take photographs of the Himalayas at sunrise.",
+    "imageCover": "tour-1-cover.jpg",
+    "locations": [
+      {
+        "_id": "15ff5352297b0d34ae82b1ba",
+        "description": "Old Manali Village",
+        "type": "Point",
+        "coordinates": [
+          77.184,
+          32.253
+        ],
+        "day": 1
+      },
+      {
+        "_id": "42b5e445f909cebe7909acad",
+        "description": "Solang Valley",
+        "type": "Point",
+        "coordinates": [
+          77.156,
+          32.316
+        ],
+        "day": 2
+      },
+      {
+        "_id": "542fe1b7c6953bd1943459c3",
+        "description": "Beas Kund Base Camp",
+        "type": "Point",
+        "coordinates": [
+          77.099,
+          32.36
+        ],
+        "day": 3
+      },
+      {
+        "_id": "13cb459a92ac5e3c7f38d9ca",
+        "description": "Beas Kund Lake",
+        "type": "Point",
+        "coordinates": [
+          77.096,
+          32.3715
+        ],
+        "day": 4
+      },
+      {
+        "_id": "e3c9e6c57c880d045e6ccb71",
+        "description": "Rohtang Pass",
+        "type": "Point",
+        "coordinates": [
+          77.2466,
+          32.3716
+        ],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Port Blair, Andaman & Nicobar",
+      "type": "Point",
+      "coordinates": [
+        92.7265,
+        11.6234
+      ],
+      "address": "Aberdeen Bazaar, Port Blair, Andaman and Nicobar Islands 744101, India"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 6,
+    "images": [
+      "tour-2-1.jpg",
+      "tour-2-2.jpg",
+      "tour-2-3.jpg"
+    ],
+    "startDates": [
+      "2026-12-05T03:30:00.000Z",
+      "2027-01-16T03:30:00.000Z",
+      "2027-02-20T03:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2955",
+    "name": "The Andaman Explorer",
+    "duration": 7,
+    "maxGroupSize": 15,
+    "difficulty": "medium",
+    "guides": [
+      "5c8a21f22f8fb814b56fa18a",
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a201e2f8fb814b56fa186"
+    ],
+    "price": 42999,
+    "summary": "Turquoise bays, coral reefs and white-sand beaches across the Andaman Islands",
+    "description": "Fly into Port Blair and island-hop through the Andamans on a seven-day adventure by foot and by boat. Snorkel over coral gardens, kayak through mangrove creeks and watch the sun set from Radhanagar, often ranked among the best beaches in Asia.\nWe also visit the Cellular Jail for its moving light-and-sound show and spend a lazy day on Neil Island's quiet shores.\nFerries, island transfers, guided snorkelling and a night stay in a beachfront cottage are all included. No diving certification is required, just a love of the sea and a sense of adventure.",
+    "imageCover": "tour-2-cover.jpg",
+    "locations": [
+      {
+        "_id": "9ee049e349e39acf608945f8",
+        "description": "Cellular Jail",
+        "type": "Point",
+        "coordinates": [
+          92.7466,
+          11.674
+        ],
+        "day": 1
+      },
+      {
+        "_id": "34f69b6f4a7e49ef08de1b14",
+        "description": "Ross Island",
+        "type": "Point",
+        "coordinates": [
+          92.766,
+          11.678
+        ],
+        "day": 2
+      },
+      {
+        "_id": "52834eb426bbae1495d5d472",
+        "description": "Radhanagar Beach, Havelock",
+        "type": "Point",
+        "coordinates": [
+          92.951,
+          11.989
+        ],
+        "day": 4
+      },
+      {
+        "_id": "4e9907e89cb250678845c228",
+        "description": "Elephant Beach",
+        "type": "Point",
+        "coordinates": [
+          92.984,
+          11.997
+        ],
+        "day": 5
+      },
+      {
+        "_id": "97042ca7df76defb35d40e24",
+        "description": "Bharatpur Beach, Neil Island",
+        "type": "Point",
+        "coordinates": [
+          93.0409,
+          11.833
+        ],
+        "day": 6
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Srinagar, Jammu & Kashmir",
+      "type": "Point",
+      "coordinates": [
+        74.7973,
+        34.0837
+      ],
+      "address": "Boulevard Road, Srinagar, Jammu and Kashmir 190001, India"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 6,
+    "images": [
+      "tour-3-1.jpg",
+      "tour-3-2.jpg",
+      "tour-3-3.jpg"
+    ],
+    "startDates": [
+      "2026-12-19T03:30:00.000Z",
+      "2027-01-23T03:30:00.000Z",
+      "2027-02-13T03:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c295a",
+    "name": "The Kashmir Snow Adventure",
+    "duration": 4,
+    "maxGroupSize": 10,
+    "difficulty": "difficult",
+    "guides": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a1f292f8fb814b56fa184"
+    ],
+    "price": 29999,
+    "summary": "Ski the slopes of Gulmarg and drift across Dal Lake in the Kashmir winter",
+    "description": "Kashmir in winter is pure magic. Start with a shikara ride on a frosty Dal Lake, then ride the Gulmarg Gondola, one of the highest cable cars in the world, up to a snowfield made for skiing, sledging and snowshoe hikes.\nWarm up afterwards with steaming kahwa and a traditional wazwan dinner.\nThis is a physically demanding tour with long days in the snow, so a good level of fitness is recommended. Ski gear, instructors and cold-weather equipment are arranged for you.",
+    "imageCover": "tour-3-cover.jpg",
+    "locations": [
+      {
+        "_id": "df68ac821a8af83334c20113",
+        "description": "Dal Lake",
+        "type": "Point",
+        "coordinates": [
+          74.87,
+          34.11
+        ],
+        "day": 1
+      },
+      {
+        "_id": "903d2cacefe170ff9fcb79fe",
+        "description": "Gulmarg Gondola",
+        "type": "Point",
+        "coordinates": [
+          74.3805,
+          34.0484
+        ],
+        "day": 2
+      },
+      {
+        "_id": "1c0896ad088b529432d28b27",
+        "description": "Pahalgam",
+        "type": "Point",
+        "coordinates": [
+          75.3248,
+          33.9211
+        ],
+        "day": 3
+      },
+      {
+        "_id": "6c250de982691d6b3849c85b",
+        "description": "Sonamarg",
+        "type": "Point",
+        "coordinates": [
+          75.2933,
+          34.3
+        ],
+        "day": 4
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "New Delhi, Delhi",
+      "type": "Point",
+      "coordinates": [
+        77.2295,
+        28.6129
+      ],
+      "address": "India Gate, Rajpath, New Delhi, Delhi 110001, India"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 5,
+    "images": [
+      "tour-4-1.jpg",
+      "tour-4-2.jpg",
+      "tour-4-3.jpg"
+    ],
+    "startDates": [
+      "2026-11-14T03:30:00.000Z",
+      "2027-01-09T03:30:00.000Z",
+      "2027-02-27T03:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c295d",
+    "name": "The Golden Triangle",
+    "duration": 6,
+    "maxGroupSize": 18,
+    "difficulty": "easy",
+    "guides": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a1f4e2f8fb814b56fa185"
+    ],
+    "price": 34999,
+    "summary": "Delhi, Agra and Jaipur: India's greatest monuments in six unforgettable days",
+    "description": "The classic first journey through India. Explore Mughal Delhi, stand before the Taj Mahal at sunrise, wander the abandoned red-sandstone city of Fatehpur Sikri and finish in the pink city of Jaipur.\nEach stop comes with a licensed local historian, plus street-food tastings you will not find in any guidebook.\nComfortable air-conditioned transport, heritage hotels and skip-the-line entry tickets are included, which keeps the pace relaxed and leaves plenty of time for chai breaks and bazaar browsing.",
+    "imageCover": "tour-4-cover.jpg",
+    "locations": [
+      {
+        "_id": "08f53ea108d4ae180d9b9d31",
+        "description": "Red Fort, Delhi",
+        "type": "Point",
+        "coordinates": [
+          77.241,
+          28.6562
+        ],
+        "day": 1
+      },
+      {
+        "_id": "91e80a77b8ba67eedd3c4895",
+        "description": "Taj Mahal, Agra",
+        "type": "Point",
+        "coordinates": [
+          78.0421,
+          27.1751
+        ],
+        "day": 3
+      },
+      {
+        "_id": "7f269f9983663abb0492dc34",
+        "description": "Fatehpur Sikri",
+        "type": "Point",
+        "coordinates": [
+          77.6679,
+          27.094
+        ],
+        "day": 4
+      },
+      {
+        "_id": "80ce714c66f7c0d3fd2d7717",
+        "description": "Amber Fort, Jaipur",
+        "type": "Point",
+        "coordinates": [
+          75.8513,
+          26.9855
+        ],
+        "day": 5
+      },
+      {
+        "_id": "dde7d25f1bb61868888db30d",
+        "description": "Hawa Mahal, Jaipur",
+        "type": "Point",
+        "coordinates": [
+          75.8267,
+          26.9239
+        ],
+        "day": 6
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Jaipur, Rajasthan",
+      "type": "Point",
+      "coordinates": [
+        75.8243,
+        26.9255
+      ],
+      "address": "City Palace, Tripolia Gate, Jaipur, Rajasthan 302002, India"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 7,
+    "images": [
+      "tour-5-1.jpg",
+      "tour-5-2.jpg",
+      "tour-5-3.jpg"
+    ],
+    "startDates": [
+      "2026-11-07T03:30:00.000Z",
+      "2027-01-30T03:30:00.000Z",
+      "2027-02-27T03:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2961",
+    "name": "Royal Rajasthan",
+    "duration": 10,
+    "maxGroupSize": 14,
+    "difficulty": "medium",
+    "guides": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a1f4e2f8fb814b56fa185"
+    ],
+    "price": 64999,
+    "summary": "Forts, palaces and golden desert dunes across the land of kings",
+    "description": "Ten days through the most colourful state in India. Start in Jaipur, climb to the ramparts of Mehrangarh in Jodhpur, sleep under the stars among the Sam sand dunes near Jaisalmer and end beside the lakes of Udaipur.\nFolk musicians, camel safaris and royal thali dinners make every evening special.\nWe stay in restored havelis and palace hotels, and our lead guide is a Rajasthani native who grew up among these forts. Bring a camera and an appetite.",
+    "imageCover": "tour-5-cover.jpg",
+    "locations": [
+      {
+        "_id": "704e93bf30dfd329f72a30b3",
+        "description": "Amber Fort",
+        "type": "Point",
+        "coordinates": [
+          75.8513,
+          26.9855
+        ],
+        "day": 1
+      },
+      {
+        "_id": "d035a19cc8b2d7cae42dd36e",
+        "description": "Mehrangarh Fort, Jodhpur",
+        "type": "Point",
+        "coordinates": [
+          73.0185,
+          26.2977
+        ],
+        "day": 3
+      },
+      {
+        "_id": "58fc6d8b1f25b55752a2969b",
+        "description": "Jaisalmer Fort",
+        "type": "Point",
+        "coordinates": [
+          70.9126,
+          26.9124
+        ],
+        "day": 5
+      },
+      {
+        "_id": "081e9509b37453bbdcea023b",
+        "description": "Sam Sand Dunes",
+        "type": "Point",
+        "coordinates": [
+          70.5167,
+          26.8333
+        ],
+        "day": 6
+      },
+      {
+        "_id": "b36a88ddec54d29452f846e0",
+        "description": "Kumbhalgarh Fort",
+        "type": "Point",
+        "coordinates": [
+          73.587,
+          25.1528
+        ],
+        "day": 8
+      },
+      {
+        "_id": "36225fb27e41493085991d02",
+        "description": "City Palace, Udaipur",
+        "type": "Point",
+        "coordinates": [
+          73.6835,
+          24.5764
+        ],
+        "day": 10
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Panaji, Goa",
+      "type": "Point",
+      "coordinates": [
+        73.8278,
+        15.4909
+      ],
+      "address": "Dr Atmaram Borkar Road, Panaji, Goa 403001, India"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 7,
+    "images": [
+      "tour-6-1.jpg",
+      "tour-6-2.jpg",
+      "tour-6-3.jpg"
+    ],
+    "startDates": [
+      "2026-11-21T03:30:00.000Z",
+      "2027-01-02T03:30:00.000Z",
+      "2027-02-06T03:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2966",
+    "name": "The Goa Surf Escape",
+    "duration": 5,
+    "maxGroupSize": 16,
+    "difficulty": "easy",
+    "guides": [
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a21f22f8fb814b56fa18a"
+    ],
+    "price": 19999,
+    "summary": "Learn to surf, then explore Portuguese-era churches and quiet southern beaches",
+    "description": "Five sun-soaked days on the Konkan coast. Morning surf lessons with certified instructors on the gentle breaks near Morjim, afternoons spent at beach shacks, and a day exploring the UNESCO-listed churches of Old Goa.\nWe finish at Palolem in the south, where you can kayak at dawn and watch dolphins from the shore.\nNo surfing experience needed: boards, wetsuits and lessons are included. Accommodation is in laid-back beach cottages a short walk from the sea.",
+    "imageCover": "tour-6-cover.jpg",
+    "locations": [
+      {
+        "_id": "c0e66b772411a7d1c657c1db",
+        "description": "Anjuna Beach",
+        "type": "Point",
+        "coordinates": [
+          73.74,
+          15.5736
+        ],
+        "day": 1
+      },
+      {
+        "_id": "381fe55407f589fbbd40e689",
+        "description": "Morjim Beach",
+        "type": "Point",
+        "coordinates": [
+          73.736,
+          15.623
+        ],
+        "day": 2
+      },
+      {
+        "_id": "de426c293c5248a2c59a15d3",
+        "description": "Basilica of Bom Jesus, Old Goa",
+        "type": "Point",
+        "coordinates": [
+          73.9115,
+          15.5009
+        ],
+        "day": 3
+      },
+      {
+        "_id": "ef2eed0ab4b05e36e39a57f7",
+        "description": "Palolem Beach",
+        "type": "Point",
+        "coordinates": [
+          74.0233,
+          15.01
+        ],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Fort Kochi, Kerala",
+      "type": "Point",
+      "coordinates": [
+        76.2433,
+        9.9658
+      ],
+      "address": "Princess Street, Fort Kochi, Kochi, Kerala 682001, India"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 7,
+    "images": [
+      "tour-7-1.jpg",
+      "tour-7-2.jpg",
+      "tour-7-3.jpg"
+    ],
+    "startDates": [
+      "2026-10-30T03:30:00.000Z",
+      "2026-12-11T03:30:00.000Z",
+      "2027-01-22T03:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c296c",
+    "name": "The Kerala Backwaters",
+    "duration": 5,
+    "maxGroupSize": 14,
+    "difficulty": "easy",
+    "guides": [
+      "5c8a21f22f8fb814b56fa18a",
+      "5c8a1f4e2f8fb814b56fa185",
+      "5c8a23412f8fb814b56fa18c"
+    ],
+    "price": 27999,
+    "summary": "Tea hills, spice gardens and a houseboat drifting through Kerala's backwaters",
+    "description": "Slow travel at its best. Walk through the misty tea estates of Munnar, taste cardamom and pepper fresh from the plant in Thekkady, then spend a night on a traditional kettuvallam houseboat gliding through the Alleppey backwaters.\nEvery stop includes tasting sessions, from estate-fresh tea to a Kerala sadya served on banana leaf.\nIt is a gentle itinerary with short walks and long, relaxed meals, ideal for couples, families and anyone who wants to unwind in God's Own Country.",
+    "imageCover": "tour-7-cover.jpg",
+    "locations": [
+      {
+        "_id": "a49ceb63ffd79c614a721ea8",
+        "description": "Chinese Fishing Nets, Fort Kochi",
+        "type": "Point",
+        "coordinates": [
+          76.242,
+          9.9677
+        ],
+        "day": 1
+      },
+      {
+        "_id": "4b057a7f9eedc2ea78a02348",
+        "description": "Munnar Tea Gardens",
+        "type": "Point",
+        "coordinates": [
+          77.0595,
+          10.0889
+        ],
+        "day": 2
+      },
+      {
+        "_id": "d8c84e4581549109874fed3e",
+        "description": "Periyar Spice Plantations, Thekkady",
+        "type": "Point",
+        "coordinates": [
+          77.16,
+          9.6
+        ],
+        "day": 3
+      },
+      {
+        "_id": "b8e450d8c922a22e361dbda5",
+        "description": "Alleppey Backwaters",
+        "type": "Point",
+        "coordinates": [
+          76.3388,
+          9.4981
+        ],
+        "day": 4
+      },
+      {
+        "_id": "5054df6e175787d0f5b0c30b",
+        "description": "Kumarakom",
+        "type": "Point",
+        "coordinates": [
+          76.43,
+          9.6177
+        ],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Leh, Ladakh",
+      "type": "Point",
+      "coordinates": [
+        77.5771,
+        34.1526
+      ],
+      "address": "Main Bazaar, Leh, Ladakh 194101, India"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 6,
+    "images": [
+      "tour-8-1.jpg",
+      "tour-8-2.jpg",
+      "tour-8-3.jpg"
+    ],
+    "startDates": [
+      "2027-06-12T03:30:00.000Z",
+      "2027-07-17T03:30:00.000Z",
+      "2027-08-21T03:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2970",
+    "name": "The Ladakh Star Gazer",
+    "duration": 9,
+    "maxGroupSize": 10,
+    "difficulty": "difficult",
+    "guides": [
+      "5c8a22c62f8fb814b56fa18b",
+      "5c8a1f292f8fb814b56fa184"
+    ],
+    "price": 54999,
+    "summary": "High-altitude passes, Pangong Lake and some of the clearest night skies on Earth",
+    "description": "Ladakh's thin, dry air makes for extraordinary stargazing. Cross Khardung La, camp among the dunes of Nubra Valley and spend a night beside the shimmering blue waters of Pangong Lake while the Milky Way arcs overhead.\nOur astronomy guide brings telescopes and star charts, and our team handles acclimatisation days carefully.\nAt altitudes above 4,000 metres this tour is demanding, so a good fitness level and a medical check-up beforehand are strongly recommended. Inner Line permits are arranged for you.",
+    "imageCover": "tour-8-cover.jpg",
+    "locations": [
+      {
+        "_id": "aa6557ad542812784b0019c3",
+        "description": "Leh Palace",
+        "type": "Point",
+        "coordinates": [
+          77.585,
+          34.165
+        ],
+        "day": 1
+      },
+      {
+        "_id": "4a07ac6045b57f0c0f60c2ed",
+        "description": "Khardung La",
+        "type": "Point",
+        "coordinates": [
+          77.604,
+          34.278
+        ],
+        "day": 3
+      },
+      {
+        "_id": "b21a515459bbc46898351dd6",
+        "description": "Hunder Sand Dunes, Nubra Valley",
+        "type": "Point",
+        "coordinates": [
+          77.485,
+          34.587
+        ],
+        "day": 4
+      },
+      {
+        "_id": "3a9ccab1a3a98e465d19460c",
+        "description": "Pangong Lake",
+        "type": "Point",
+        "coordinates": [
+          78.66,
+          33.75
+        ],
+        "day": 6
+      },
+      {
+        "_id": "c60c67fa2b797619cca7e6ee",
+        "description": "Tso Moriri",
+        "type": "Point",
+        "coordinates": [
+          78.3,
+          32.9
+        ],
+        "day": 8
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Joshimath, Uttarakhand",
+      "type": "Point",
+      "coordinates": [
+        79.565,
+        30.555
+      ],
+      "address": "Auli Road, Joshimath, Uttarakhand 246443, India"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 7,
+    "images": [
+      "tour-9-1.jpg",
+      "tour-9-2.jpg",
+      "tour-9-3.jpg"
+    ],
+    "startDates": [
+      "2026-12-18T03:30:00.000Z",
+      "2027-01-15T03:30:00.000Z",
+      "2027-02-12T03:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2974",
+    "name": "The Auli Winter Escape",
+    "duration": 3,
+    "maxGroupSize": 12,
+    "difficulty": "easy",
+    "guides": [
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a22c62f8fb814b56fa18b"
+    ],
+    "price": 14999,
+    "summary": "A short, snowy escape to the ski slopes and meadows of Auli in Uttarakhand",
+    "description": "Three days in one of India's best winter playgrounds. Ride the Joshimath-Auli ropeway, learn the basics of skiing on gentle slopes and hike through snow-covered oak forest to Gorson Bugyal for views of Nanda Devi.\nEach evening you will return to a cosy lodge with a log fire and hot Garhwali food.\nIt is an easy trip for beginners and families, with all ski equipment, instruction and transfers from Joshimath included.",
+    "imageCover": "tour-9-cover.jpg",
+    "locations": [
+      {
+        "_id": "547f72b60f1113145ce5e08b",
+        "description": "Joshimath-Auli Ropeway",
+        "type": "Point",
+        "coordinates": [
+          79.5619,
+          30.5547
+        ],
+        "day": 1
+      },
+      {
+        "_id": "6d8ba0b482eb0162a1349078",
+        "description": "Auli Ski Slopes",
+        "type": "Point",
+        "coordinates": [
+          79.5659,
+          30.5285
+        ],
+        "day": 2
+      },
+      {
+        "_id": "d38203935378c14c4c093552",
+        "description": "Gorson Bugyal",
+        "type": "Point",
+        "coordinates": [
+          79.5833,
+          30.5167
+        ],
+        "day": 3
+      }
+    ]
+  }
+]

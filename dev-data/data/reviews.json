@@ -1,0 +1,422 @@
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9108",
+    "review": "Absolutely unforgettable. The Andaman trip was perfectly organised and our guide knew every corner.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a355b14eb5c17645c9109",
+    "review": "The Kashmir trip was really enjoyable. A couple of long drives, but the highlights were spectacular.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a359914eb5c17645c910a",
+    "review": "Best trip we have taken in India. Great food, great company and incredible views on the Golden Triangle tour.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a35b614eb5c17645c910b",
+    "review": "Great value and a friendly group. The Kerala trip could use a little more free time, otherwise excellent.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c910c",
+    "review": "Worth every rupee! The Kerala trip exceeded all our expectations.",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a368c14eb5c17645c910d",
+    "review": "Superb planning, comfortable stays and a guide who truly cared. Highly recommend the Auli trip.",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a36a014eb5c17645c910e",
+    "review": "I came for the scenery and left with new friends. The Ladakh trip was a dream.",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a36b714eb5c17645c910f",
+    "review": "Lovely trip with knowledgeable guides. Hotels were comfortable and the food was very good.",
+    "rating": 4,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a379a14eb5c17645c9110",
+    "review": "Flawless from pickup to drop. We are already planning our next trip with YatraHub.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a37b114eb5c17645c9111",
+    "review": "Beautiful places and good organisation on the Kashmir trip. Would happily book again.",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a37cb14eb5c17645c9112",
+    "review": "Every day brought a new surprise. The Rajasthan tour is a must for any traveller.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a37dd14eb5c17645c9113",
+    "review": "The Goa trip was really enjoyable. A couple of long drives, but the highlights were spectacular.",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a37f114eb5c17645c9114",
+    "review": "Our family loved it. Safe, well paced and full of memorable moments on the Auli trip.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a381714eb5c17645c9115",
+    "review": "Absolutely unforgettable. The Himalayan trek was perfectly organised and our guide knew every corner.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a382d14eb5c17645c9116",
+    "review": "Best trip we have taken in India. Great food, great company and incredible views on the Kashmir trip.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a384114eb5c17645c9117",
+    "review": "Worth every rupee! The Rajasthan tour exceeded all our expectations.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a385614eb5c17645c9118",
+    "review": "Superb planning, comfortable stays and a guide who truly cared. Highly recommend the Golden Triangle tour.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a387214eb5c17645c9119",
+    "review": "I came for the scenery and left with new friends. The Kerala trip was a dream.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a38ac14eb5c17645c911a",
+    "review": "Flawless from pickup to drop. We are already planning our next trip with YatraHub.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a38c714eb5c17645c911b",
+    "review": "Every day brought a new surprise. The Ladakh trip is a must for any traveller.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a38da14eb5c17645c911c",
+    "review": "Our family loved it. Safe, well paced and full of memorable moments on the Goa trip.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a38ed14eb5c17645c911d",
+    "review": "Absolutely unforgettable. The Golden Triangle tour was perfectly organised and our guide knew every corner.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a390d14eb5c17645c911e",
+    "review": "Best trip we have taken in India. Great food, great company and incredible views on the Himalayan trek.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a391f14eb5c17645c911f",
+    "review": "Worth every rupee! The Andaman trip exceeded all our expectations.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a395b14eb5c17645c9120",
+    "review": "Superb planning, comfortable stays and a guide who truly cared. Highly recommend the Himalayan trek.",
+    "rating": 5,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a399014eb5c17645c9121",
+    "review": "Great value and a friendly group. The Golden Triangle tour could use a little more free time, otherwise excellent.",
+    "rating": 4,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a39a214eb5c17645c9122",
+    "review": "I came for the scenery and left with new friends. The Ladakh trip was a dream.",
+    "rating": 5,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a39b614eb5c17645c9123",
+    "review": "Good overall, but the Auli trip schedule felt rushed on a couple of days.",
+    "rating": 3,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3a7014eb5c17645c9124",
+    "review": "Flawless from pickup to drop. We are already planning our next trip with YatraHub.",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a3a8d14eb5c17645c9125",
+    "review": "Every day brought a new surprise. The Himalayan trek is a must for any traveller.",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3a9914eb5c17645c9126",
+    "review": "Our family loved it. Safe, well paced and full of memorable moments on the Kashmir trip.",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a3aaa14eb5c17645c9127",
+    "review": "Lovely trip with knowledgeable guides. Hotels were comfortable and the food was very good.",
+    "rating": 4,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3abc14eb5c17645c9128",
+    "review": "Beautiful places and good organisation on the Goa trip. Would happily book again.",
+    "rating": 4,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a3acf14eb5c17645c9129",
+    "review": "Absolutely unforgettable. The Ladakh trip was perfectly organised and our guide knew every corner.",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a3b1e14eb5c17645c912a",
+    "review": "Best trip we have taken in India. Great food, great company and incredible views on the Kerala trip.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a3b3214eb5c17645c912b",
+    "review": "Worth every rupee! The Auli trip exceeded all our expectations.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3b4714eb5c17645c912c",
+    "review": "Bad weather disrupted the Goa trip and the plan was not adjusted well. Hoping for a better experience next time.",
+    "rating": 1,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a3b6714eb5c17645c912e",
+    "review": "Superb planning, comfortable stays and a guide who truly cared. Highly recommend the Himalayan trek.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3b7c14eb5c17645c912f",
+    "review": "I came for the scenery and left with new friends. The Andaman trip was a dream.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a3b9f14eb5c17645c9130",
+    "review": "Flawless from pickup to drop. We are already planning our next trip with YatraHub.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a3bc414eb5c17645c9131",
+    "review": "Every day brought a new surprise. The Rajasthan tour is a must for any traveller.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3bdc14eb5c17645c9132",
+    "review": "Our family loved it. Safe, well paced and full of memorable moments on the Goa trip.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a3bf514eb5c17645c9133",
+    "review": "Absolutely unforgettable. The Auli trip was perfectly organised and our guide knew every corner.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3c2514eb5c17645c9134",
+    "review": "Best trip we have taken in India. Great food, great company and incredible views on the Himalayan trek.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3c3b14eb5c17645c9135",
+    "review": "The Kashmir trip was really enjoyable. A couple of long drives, but the highlights were spectacular.",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a3c5314eb5c17645c9136",
+    "review": "Worth every rupee! The Rajasthan tour exceeded all our expectations.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3c6814eb5c17645c9137",
+    "review": "Great value and a friendly group. The Golden Triangle tour could use a little more free time, otherwise excellent.",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a3c7814eb5c17645c9138",
+    "review": "Lovely trip with knowledgeable guides. Hotels were comfortable and the food was very good.",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a3c9014eb5c17645c9139",
+    "review": "Superb planning, comfortable stays and a guide who truly cared. Highly recommend the Ladakh trip.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a3ca314eb5c17645c913a",
+    "review": "I came for the scenery and left with new friends. The Kerala trip was a dream.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a3cdc14eb5c17645c913b",
+    "review": "Flawless from pickup to drop. We are already planning our next trip with YatraHub.",
+    "rating": 5,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a3cf414eb5c17645c913c",
+    "review": "Every day brought a new surprise. The Himalayan trek is a must for any traveller.",
+    "rating": 5,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3d1e14eb5c17645c913d",
+    "review": "Beautiful places and good organisation on the Rajasthan tour. Would happily book again.",
+    "rating": 4,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3d3a14eb5c17645c913e",
+    "review": "The Ladakh trip was really enjoyable. A couple of long drives, but the highlights were spectacular.",
+    "rating": 4,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a3d5314eb5c17645c913f",
+    "review": "Our family loved it. Safe, well paced and full of memorable moments on the Auli trip.",
+    "rating": 5,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3d8614eb5c17645c9140",
+    "review": "Absolutely unforgettable. The Auli trip was perfectly organised and our guide knew every corner.",
+    "rating": 5,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3d9b14eb5c17645c9141",
+    "review": "The scenery was wonderful, but transfers during the Kerala trip ran late more than once.",
+    "rating": 2,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a3de514eb5c17645c9143",
+    "review": "Best trip we have taken in India. Great food, great company and incredible views on the Rajasthan tour.",
+    "rating": 5,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9144",
+    "review": "Worth every rupee! The Himalayan trek exceeded all our expectations.",
+    "rating": 5,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3e63e12c44188b4dbc5b",
+    "review": "Great value and a friendly group. The Goa trip could use a little more free time, otherwise excellent.",
+    "rating": 4,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2966"
+  }
+]

@@ -1,0 +1,11 @@
+# Optional: run `docker compose up -d` to get a local MongoDB on port 27017.
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - '27017:27017'
+    volumes:
+      - yatrahub-data:/data/db
+volumes:
+  yatrahub-data:
