@@ -765,6 +765,7 @@ a {
 .section-map {
   position: relative;
   height: 52rem;
+  width: 100%;
   max-width: 120rem;
   margin: 2.4rem auto 0;
   padding: 0 2.4rem;
