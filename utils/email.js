@@ -18,6 +18,9 @@ module.exports = class Email {
       return nodemailer.createTransport({
         host: 'smtp.sendgrid.net',
         port: 587,
+        connectionTimeout: 10000,
+        greetingTimeout: 10000,
+        socketTimeout: 15000,
         auth: {
           user: process.env.SENDGRID_USERNAME || 'apikey',
           pass: process.env.SENDGRID_PASSWORD
@@ -29,6 +32,9 @@ module.exports = class Email {
       return nodemailer.createTransport({
         host: process.env.EMAIL_HOST,
         port: process.env.EMAIL_PORT,
+        connectionTimeout: 10000,
+        greetingTimeout: 10000,
+        socketTimeout: 15000,
         auth: {
           user: process.env.EMAIL_USERNAME,
           pass: process.env.EMAIL_PASSWORD
