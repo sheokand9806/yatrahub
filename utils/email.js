@@ -13,21 +13,6 @@ module.exports = class Email {
   }
 
   newTransport() {
-    if (process.env.NODE_ENV === 'production' && process.env.SENDGRID_PASSWORD) {
-      // Sendgrid
-      return nodemailer.createTransport({
-        host: 'smtp.sendgrid.net',
-        port: 587,
-        connectionTimeout: 10000,
-        greetingTimeout: 10000,
-        socketTimeout: 15000,
-        auth: {
-          user: process.env.SENDGRID_USERNAME || 'apikey',
-          pass: process.env.SENDGRID_PASSWORD
-        }
-      });
-    }
-
     if (process.env.EMAIL_HOST) {
       return nodemailer.createTransport({
         host: process.env.EMAIL_HOST,
@@ -65,8 +50,39 @@ module.exports = class Email {
       text: convert(html, { wordwrap: 130 })
     };
 
-    // 3) Create a transport and send email
-    const info = await this.newTransport().sendMail(mailOptions);
+    let info;
+    if (process.env.SENDGRID_PASSWORD) {
+      const response = await fetch('https://api.sendgrid.com/v3/mail/send', {
+        method: 'POST',
+        signal: AbortSignal.timeout(15000),
+        headers: {
+          Authorization: `Bearer ${process.env.SENDGRID_PASSWORD}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          personalizations: [{ to: [{ email: this.to }] }],
+          from: {
+            email: process.env.EMAIL_FROM || 'hello@yatrahub.in',
+            name: 'YatraHub'
+          },
+          subject,
+          content: [
+            { type: 'text/plain', value: mailOptions.text },
+            { type: 'text/html', value: mailOptions.html }
+          ]
+        })
+      });
+
+      if (!response.ok) {
+        const details = await response.text();
+        throw new Error(
+          `SendGrid API returned ${response.status}: ${details}`
+        );
+      }
+      info = { accepted: [this.to], response: response.status };
+    } else {
+      info = await this.newTransport().sendMail(mailOptions);
+    }
 
     if (!process.env.EMAIL_HOST && !process.env.SENDGRID_PASSWORD) {
       console.log(
