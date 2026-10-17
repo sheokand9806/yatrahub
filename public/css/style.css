@@ -384,14 +384,16 @@ a {
   color: var(--brand-dark);
 }
 
-.nav__el--cta {
+.nav__el.nav__el--cta,
+.nav__el.nav__el--cta:link,
+.nav__el.nav__el--cta:visited {
   padding: 0.9rem 1.8rem;
   border-radius: 999px;
   background: var(--brand);
-  color: #ffffff00 !important;
+  color: #fff !important;
   border: none !important;
 }
-.nav__el--cta:hover {
+.nav__el.nav__el--cta:hover {
   background: var(--brand-dark);
   color: #fff !important;
 }
