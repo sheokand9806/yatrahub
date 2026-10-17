@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { errorMessage } from '../api';
 import { useAlert } from '../context/AlertContext.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
+import GoogleAuthButton from '../components/GoogleAuthButton.jsx';
 import { usePageTitle } from '../utils.js';
 
 export default function Signup() {
@@ -64,6 +65,7 @@ export default function Signup() {
             Already have an account? <Link to="/login">Log in</Link>
           </p>
         </form>
+        <GoogleAuthButton />
       </div>
       <aside className="auth-panel">
         <h3>Join a community of curious travellers.</h3>

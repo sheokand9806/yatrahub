@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { errorMessage } from '../api';
 import { useAlert } from '../context/AlertContext.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
+import GoogleAuthButton from '../components/GoogleAuthButton.jsx';
 import { usePageTitle } from '../utils.js';
 
 export default function Login() {
@@ -11,6 +12,8 @@ export default function Login() {
   const { showAlert } = useAlert();
   const navigate = useNavigate();
   const location = useLocation();
+  const googleError =
+    new URLSearchParams(location.search).get('oauth') === 'google_error';
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
@@ -33,6 +36,11 @@ export default function Login() {
       <div className="auth-layout">
       <div className="login-form">
         <h2 className="heading-secondary ma-bt-lg">Welcome back</h2>
+        {googleError && (
+          <p className="google-auth__error" role="alert">
+            Google sign-in could not be completed. Please try again.
+          </p>
+        )}
         <form className="form form--login" onSubmit={handleSubmit}>
           <div className="form__group">
             <label className="form__label" htmlFor="email">Email address</label>
@@ -70,6 +78,7 @@ export default function Login() {
             <Link to="/signup">Create an account</Link>
           </p>
         </form>
+        <GoogleAuthButton />
       </div>
       <aside className="auth-panel">
         <h3>Your next yatra is waiting.</h3>

@@ -1,12 +1,61 @@
 const crypto = require('crypto');
 const { promisify } = require('util');
 const jwt = require('jsonwebtoken');
+const { OAuth2Client } = require('google-auth-library');
 const User = require('./../models/userModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
 const Email = require('./../utils/email');
 
 const JWT_OPTIONS = { algorithms: ['HS256'] };
+const GOOGLE_STATE_COOKIE = 'google_oauth_state';
+
+const googleRedirectUri = () =>
+  process.env.GOOGLE_REDIRECT_URI ||
+  `${(process.env.APP_URL || 'http://localhost:3000').replace(/\/$/, '')}/api/v1/users/google/callback`;
+
+const googleClient = () => {
+  if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
+    throw new AppError(
+      'Google sign-in is not configured. Set GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET.',
+      503
+    );
+  }
+
+  return new OAuth2Client(
+    process.env.GOOGLE_CLIENT_ID,
+    process.env.GOOGLE_CLIENT_SECRET,
+    googleRedirectUri()
+  );
+};
+
+const clientUrl = () =>
+  (process.env.CLIENT_URL || process.env.APP_URL || 'http://localhost:3000').replace(
+    /\/$/,
+    ''
+  );
+
+const googleStateCookieOptions = req => ({
+  httpOnly: true,
+  sameSite: 'lax',
+  secure: req.secure || req.headers['x-forwarded-proto'] === 'https',
+  path: '/api/v1/users',
+  maxAge: 10 * 60 * 1000
+});
+
+const setAuthCookie = (user, req, res) => {
+  const token = signToken(user._id);
+  const cookieDays = Number(process.env.JWT_COOKIE_EXPIRES_IN) || 90;
+
+  res.cookie('jwt', token, {
+    expires: new Date(Date.now() + cookieDays * 24 * 60 * 60 * 1000),
+    httpOnly: true,
+    sameSite: 'lax',
+    secure: req.secure || req.headers['x-forwarded-proto'] === 'https'
+  });
+
+  return token;
+};
 
 const signToken = id => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
@@ -16,16 +65,7 @@ const signToken = id => {
 };
 
 const createSendToken = (user, statusCode, req, res) => {
-  const token = signToken(user._id);
-
-  const cookieDays = Number(process.env.JWT_COOKIE_EXPIRES_IN) || 90;
-
-  res.cookie('jwt', token, {
-    expires: new Date(Date.now() + cookieDays * 24 * 60 * 60 * 1000),
-    httpOnly: true,
-    sameSite: 'lax',
-    secure: req.secure || req.headers['x-forwarded-proto'] === 'https'
-  });
+  const token = setAuthCookie(user, req, res);
 
   // Remove password from output
   user.password = undefined;
@@ -71,6 +111,93 @@ exports.login = catchAsync(async (req, res, next) => {
 
   // 3) If everything ok, send token to client
   createSendToken(user, 200, req, res);
+});
+
+exports.googleLogin = catchAsync(async (req, res) => {
+  const oauthClient = googleClient();
+  const state = crypto.randomBytes(32).toString('hex');
+  res.cookie(GOOGLE_STATE_COOKIE, state, googleStateCookieOptions(req));
+
+  const authUrl = oauthClient.generateAuthUrl({
+    access_type: 'online',
+    prompt: 'select_account',
+    scope: ['openid', 'email', 'profile'],
+    state
+  });
+
+  res.redirect(authUrl);
+});
+
+exports.googleCallback = catchAsync(async (req, res, next) => {
+  const stateCookie = req.cookies[GOOGLE_STATE_COOKIE];
+  res.clearCookie(GOOGLE_STATE_COOKIE, {
+    httpOnly: true,
+    sameSite: 'lax',
+    secure: req.secure || req.headers['x-forwarded-proto'] === 'https',
+    path: '/api/v1/users'
+  });
+
+  if (
+    typeof req.query.state !== 'string' ||
+    !stateCookie ||
+    req.query.state !== stateCookie
+  ) {
+    return next(
+      new AppError('Google sign-in could not be verified. Please try again.', 400)
+    );
+  }
+
+  if (req.query.error || typeof req.query.code !== 'string') {
+    return res.redirect(`${clientUrl()}/login?oauth=google_error`);
+  }
+
+  try {
+    const oauthClient = googleClient();
+    const { tokens } = await oauthClient.getToken(req.query.code);
+    if (!tokens.id_token) {
+      throw new Error('Google did not return an ID token.');
+    }
+
+    const ticket = await oauthClient.verifyIdToken({
+      idToken: tokens.id_token,
+      audience: process.env.GOOGLE_CLIENT_ID
+    });
+    const profile = ticket.getPayload();
+    if (!profile?.sub || !profile.email || profile.email_verified !== true) {
+      throw new Error('Google did not return a verified email address.');
+    }
+
+    const email = profile.email.toLowerCase();
+    let user = await User.findOne({ googleId: profile.sub }).select('+googleId');
+    if (!user) {
+      user = await User.findOne({ email }).select('+googleId');
+      if (user) {
+        if (user.googleId && user.googleId !== profile.sub) {
+          throw new AppError(
+            'This email address is already linked to a different Google account.',
+            409
+          );
+        }
+        user.googleId = profile.sub;
+        await user.save({ validateBeforeSave: false });
+      } else {
+        const password = crypto.randomBytes(32).toString('hex');
+        user = await User.create({
+          name: profile.name || email.split('@')[0],
+          email,
+          googleId: profile.sub,
+          password,
+          passwordConfirm: password
+        });
+      }
+    }
+
+    setAuthCookie(user, req, res);
+    return res.redirect(clientUrl());
+  } catch (err) {
+    console.error('Google sign-in failed:', err.message);
+    return res.redirect(`${clientUrl()}/login?oauth=google_error`);
+  }
 });
 
 exports.logout = (req, res) => {

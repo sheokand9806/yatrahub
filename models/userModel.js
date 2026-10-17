@@ -15,6 +15,12 @@ const userSchema = new mongoose.Schema({
     lowercase: true,
     validate: [validator.isEmail, 'Please provide a valid email']
   },
+  googleId: {
+    type: String,
+    unique: true,
+    sparse: true,
+    select: false
+  },
   photo: {
     type: String,
     default: 'default.jpg'
