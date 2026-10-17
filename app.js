@@ -20,6 +20,7 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const adminRouter = require('./routes/adminRoutes');
+const chatbotRouter = require('./routes/chatbotRoutes');
 
 // Start express app
 const app = express();
@@ -131,6 +132,7 @@ app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
 app.use('/api/v1/bookings', bookingRouter);
 app.use('/api/v1/admin', adminRouter);
+app.use('/api/v1/chatbot', chatbotRouter);
 
 app.all('/api/{*splat}', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));

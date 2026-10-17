@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useAlert } from '../context/AlertContext.jsx';
+import ChatbotWidget from './ChatbotWidget.jsx';
 
 function Brand({ light }) {
   return (
@@ -132,6 +133,7 @@ export default function Layout() {
         <Outlet />
       </div>
       <Footer />
+      <ChatbotWidget />
     </div>
   );
 }
