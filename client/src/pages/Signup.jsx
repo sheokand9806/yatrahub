@@ -39,7 +39,7 @@ export default function Signup() {
       <div className="auth-layout">
       <div className="login-form">
         <h2 className="heading-secondary ma-bt-lg">Create your account</h2>
-        <form className="form" onSubmit={handleSubmit}>
+        <form className="form form--signup" onSubmit={handleSubmit}>
           <div className="form__group">
             <label className="form__label" htmlFor="name">Your name</label>
             <input id="name" className="form__input" type="text" placeholder="Your name" required value={form.name} onChange={set('name')} />
@@ -57,7 +57,7 @@ export default function Signup() {
             <input id="passwordConfirm" className="form__input" type="password" placeholder="••••••••" required minLength={8} value={form.passwordConfirm} onChange={set('passwordConfirm')} />
           </div>
           <div className="form__group">
-            <button className="btn btn--green" disabled={busy}>
+            <button className="btn btn--green btn--signup" disabled={busy}>
               {busy ? 'Creating...' : 'Sign up'}
             </button>
           </div>

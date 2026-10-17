@@ -240,6 +240,27 @@ a {
   background-color: var(--brand-dark);
 }
 
+.btn--signup {
+  display: flex;
+  width: 100%;
+  min-height: 5.2rem;
+  background: #0f6e56;
+  color: #fff;
+  border: 2px solid #0f6e56;
+  opacity: 1;
+  box-shadow: 0 8px 20px rgba(15, 110, 86, 0.3);
+}
+
+.btn--signup:hover {
+  background: #0a4f3e;
+  border-color: #0a4f3e;
+  box-shadow: 0 12px 24px rgba(15, 110, 86, 0.28);
+}
+
+.btn--signup:disabled {
+  opacity: 0.9;
+}
+
 .btn--small {
   padding: 1rem 1.8rem !important;
   font-size: 1.35rem !important;
