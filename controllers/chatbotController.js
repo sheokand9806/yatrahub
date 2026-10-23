@@ -83,12 +83,10 @@ exports.reply = catchAsync(async (req, res, next) => {
         })
       }
     );
-  } catch {
-    return next(
-      new AppError('Could not reach the chatbot service. Please try again shortly.', 502)
-    );
-  }
-
+  } catch (error) {
+  console.error("CRITICAL BACKEND ERROR:", error); // <-- THIS WILL SHOW US THE TRUTH
+  return next(new AppError('Could not reach the chatbot service. Please try again shortly.', 502));
+}
   if (!response.ok) {
     let providerError;
     try {
