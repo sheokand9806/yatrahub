@@ -63,7 +63,7 @@ exports.reply = catchAsync(async (req, res, next) => {
           'Content-Type': 'application/json',
           'x-goog-api-key': apiKey
         },
-        signal: AbortSignal.timeout(30000),
+        signal: AbortSignal.timeout(90000),
         body: JSON.stringify({
           systemInstruction: {
             parts: [
